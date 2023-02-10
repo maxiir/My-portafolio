@@ -1,0 +1,29 @@
+.skills-container{
+    background-color: rgb(88, 31, 185);
+    /* background-color: red; */
+}
+.skills-container h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 3%;
+    font-family: 'Michroma', sans-serif;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    /* padding: 0%; */
+}
+
+.skills p{
+    transition: all 1s;
+    color: rgb(169, 169, 169);
+    font-size: 50px;
+}
+
+.skills p:hover{
+    transition: all 1s;
+    font-size: 60px;
+    color: yellowgreen;
+}

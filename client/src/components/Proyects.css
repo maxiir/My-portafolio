@@ -1,0 +1,55 @@
+.container-proyects{
+    background-color: rgba(0, 0, 0, 0.308);
+    padding: 2%;
+}
+
+.container-proyects h1{
+    text-align: center;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    
+}
+.proyects{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.efect{
+    transition: all 1s;
+    background-image: linear-gradient(to right, rgb(26, 45, 169),rgb(82, 32, 126));
+    margin: 0 3%;
+    padding: 5px;
+    border-radius: 10px;
+    width: 30%;
+
+}
+.efect h5{
+    color: white;
+}
+
+.efect:hover{
+    transition: all 2s;
+    width: 40%;
+    height: 100px;
+}
+
+.proyect{
+    
+    background-color: rgb(29, 29, 29);
+    border-radius: 10px;
+    padding: 5%;
+      
+}
+
+.proyect ,img,h5,p{
+    text-align: center;
+}
+
+.proyect img{
+    width: 230px;
+    height: 120px;
+    padding: 2%;
+}
+
+

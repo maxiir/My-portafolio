@@ -1,0 +1,42 @@
+body{
+    background-color: #1e1e1e;
+    opacity: 1;
+    background: linear-gradient(135deg, #17171755 25%, transparent 25%) -35px 0/ 70px 70px, linear-gradient(225deg, #171717 25%, transparent 25%) -35px 0/ 70px 70px, linear-gradient(315deg, #17171755 25%, transparent 25%) 0px 0/ 70px 70px, linear-gradient(45deg, #171717 25%, #1e1e1e 25%) 0px 0/ 70px 70px;
+}
+.gradient{
+    background-image: linear-gradient(to right, #c21500,#ffc500);
+    border-radius: 15px;
+    padding: 5px; 
+    margin: 12% auto 2% auto;
+    
+}
+
+.presentacion{
+    background-color: black;
+    border-radius: 15px;
+    height: 600px;
+    padding: 3%;
+}
+.presentacion h1,p{
+    color: white;
+    padding: 20px;
+    font-weight: 600; 
+}
+.presentacion p{
+    width: 600px;
+    
+}
+.img-perfil{
+    border-radius: 50%;
+    width: 360px;
+    transform: translate(20%,15%);
+}
+
+.title-des{
+    display: flex;
+    float: right;
+}
+
+
+
+

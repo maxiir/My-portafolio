@@ -1,0 +1,16 @@
+.form-container label{
+    color: white;
+}
+
+.contact-container{
+    padding: 5% 30%;
+    background-color: rgb(18, 54, 131);
+    
+}
+
+.container-fluid h2{
+    color: white;
+    text-align: center;
+    font-family: 'Michroma', sans-serif;
+}
+

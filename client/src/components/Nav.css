@@ -1,0 +1,31 @@
+i{
+  display: flex;
+  color: white;
+  font-size: 30px;
+  
+}
+
+i:hover{
+  color: yellowgreen;
+}
+
+.icons{
+  display: flex;
+}
+.icons a{
+  margin: 0 1% ;
+}
+
+.collapse{
+  margin: 0 2%;
+}
+
+.navbar-nav a{  
+  color: white;
+  margin: 0 20px;
+}
+
+.navbar-nav a:hover{
+  color: yellowgreen;
+}
+
