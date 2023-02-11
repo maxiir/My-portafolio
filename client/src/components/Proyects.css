@@ -1,6 +1,7 @@
 .container-proyects{
     background-color: rgba(0, 0, 0, 0.308);
     padding: 2%;
+    
 }
 
 .container-proyects h1{
@@ -22,6 +23,8 @@
     padding: 5px;
     border-radius: 10px;
     width: 30%;
+    
+    
 
 }
 .efect h5{
@@ -31,7 +34,7 @@
 .efect:hover{
     transition: all 2s;
     width: 40%;
-    height: 100px;
+    height: 10%;
 }
 
 .proyect{
@@ -39,11 +42,20 @@
     background-color: rgb(29, 29, 29);
     border-radius: 10px;
     padding: 5%;
+    height: 100%;
       
 }
 
-.proyect ,img,h5,p{
+.proyect ,img,h5{
     text-align: center;
+}
+.proyect h5{
+    color: yellowgreen;
+    margin: 8% 0;
+}
+.proyect p{
+    
+    padding: 5%;
 }
 
 .proyect img{
@@ -52,4 +64,6 @@
     padding: 2%;
 }
 
-
+.proyect button{
+    width: 100px;
+}

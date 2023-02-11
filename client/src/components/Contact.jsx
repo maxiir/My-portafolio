@@ -3,7 +3,7 @@ import "./Contact.css";
 function Contact() {
   return (
     <div className="contact-container container-fluid" id="contact">
-        <h2>contact</h2>
+        <h2>Contact</h2>
         <div className="form-container container">
             <div className="mb-3">
                 <label htmlFor="exampleFormControlInput1" className="form-label">

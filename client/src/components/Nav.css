@@ -20,12 +20,15 @@ i:hover{
   margin: 0 2%;
 }
 
-.navbar-nav a{  
+.navbar-nav a{
+  transition: all 2s;
   color: white;
   margin: 0 20px;
 }
 
 .navbar-nav a:hover{
   color: yellowgreen;
+  transition: all 2s;
+  font-size: 20px;
 }
 
