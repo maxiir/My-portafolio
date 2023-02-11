@@ -11,7 +11,7 @@ function Nav() {
       <nav className="navbar navbar-expand-lg bg-dark fixed-top"> 
         <div className="container-fluid">
           <div className="icons container">
-            <a href="#">
+            <a href="https://github.com/maxiir">
               <i><FaGithub/></i>
             </a>
             <a href="https://www.linkedin.com/in/maximiliano-rucci-b757901b0/">

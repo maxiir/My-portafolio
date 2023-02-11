@@ -1,25 +1,10 @@
 import './Proyects.css'
-import Typed from 'typed.js';
-import {useEffect} from 'react'
 
 function Proyects(){
-
-    useEffect(()=>{
-        const typed = new Typed('#change',{
-            strings:['Proyects'],
-            cursorChar: '|',
-            typeSpeed: 100,
-            loop: true
-        });
-        return ()=>{
-            typed.destroy()
-        }
-    })
-
     return(
         <div>
             <div className="container-proyects container-fluid" id='proyects'>
-                <h1 id='change'>Proyects</h1>
+                <h1>Proyects</h1>
               
                 <div className="proyects">
                     <div className="efect">

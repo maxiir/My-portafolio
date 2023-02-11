@@ -3,6 +3,7 @@ import Presentacion from "../components/Presentacion";
 import Skills from "../components/Skills";
 import Proyects from "../components/Proyects";
 import Contact from "../components/Contact";
+import Cv from "../components/Cv";
 import Footer from "../components/Footer";
 import './Home.css'
 
@@ -31,6 +32,7 @@ function Home() {
       </div>
       <Proyects />
       <Contact />
+      <Cv/>
       <Footer />
     </div>
   );

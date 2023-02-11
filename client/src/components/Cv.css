@@ -1,0 +1,22 @@
+.container-cv{
+    background-color: rgb(35, 35, 35);
+    padding: 2%;
+}
+.container-cv span{
+    color:yellowgreen;
+    margin-bottom: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container-cv a{
+    text-decoration: none;
+}
+
+.container-cv button{
+    margin: 20px 0;
+    background-color: rgb(39, 153, 75);
+    border: none;
+}
+
+.container-cv button:hover{
+    background-color: rgb(27, 126, 59);
+}

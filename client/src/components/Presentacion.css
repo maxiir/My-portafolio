@@ -12,29 +12,38 @@ body{
 }
 
 .presentacion{
+    display: flex;
     background-color: black;
     border-radius: 15px;
     height: 600px;
     padding: 3%;
 }
-.presentacion h1,p{
+.presentacion span,p{
     color: white;
-    padding: 20px;
     font-weight: 600; 
 }
-.presentacion p{
-    width: 600px;
-    
+.presentacion span{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    color: yellowgreen; 
+}
+.text p{
+    font-weight: 300;
+    padding-top: 5%;
+    width: 70%;
+    text-align: left;
 }
 .img-perfil{
     border-radius: 50%;
     width: 360px;
+    height: 360px;
     transform: translate(20%,15%);
 }
 
-.title-des{
-    display: flex;
-    float: right;
+.container-description{ 
+    transform: translateX(20%);
+    padding: 5% 0 0 0;
 }
 
 

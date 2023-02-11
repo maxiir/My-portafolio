@@ -29,7 +29,6 @@ function Contact() {
 
             </div>
             <div className="btn container">
-
               <button className="btn btn-primary">Enviar</button>
             </div>
 
