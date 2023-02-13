@@ -41,6 +41,7 @@ function Skills() {
         <p>
           <FaCss3Alt />
         </p>
+      
       </div>
     </div>
   );

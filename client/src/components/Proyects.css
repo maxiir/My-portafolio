@@ -43,6 +43,7 @@
     border-radius: 10px;
     padding: 5%;
     height: 100%;
+    
       
 }
 
@@ -69,19 +70,24 @@
 }
 
 @media (max-width:700px){
+    .container-proyects{
+        padding: 20% 0;
+    }
     .proyects{
         display: grid;
-        /* grid-template-columns: 1fr; */
+        grid-template-columns: 1fr;
     }
+   
     .container-proyects h1{
         font-size: 20px;
     }
-    .proyects{
-        width: 300%;
-        
-    }
+    
     .efect{
         margin: 20px 0;
-    }
+        width: auto;
+        /* para cancelar los efectos */
+        pointer-events: none;
+    } 
     
+
 }
