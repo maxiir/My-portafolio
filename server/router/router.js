@@ -4,6 +4,6 @@ import controller from '../controller/controller.js'
 
 const router = Router();
 
-router.get('/', controller.index)
+// router.get('/', controller.index)
 
 export default router
