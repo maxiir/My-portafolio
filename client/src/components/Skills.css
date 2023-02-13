@@ -34,7 +34,7 @@
         padding: 10%;
         /* margin: 20% auto; */
     }
-}
+
     .skills-container h1{
         font-size: 20px;
     }
@@ -45,3 +45,4 @@
     .skills p:hover{
         font-size: 50px;
     }
+}
