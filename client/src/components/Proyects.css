@@ -67,3 +67,21 @@
 .proyect button{
     width: 100px;
 }
+
+@media (max-width:700px){
+    .proyects{
+        display: grid;
+        /* grid-template-columns: 1fr; */
+    }
+    .container-proyects h1{
+        font-size: 20px;
+    }
+    .proyects{
+        width: 300%;
+        
+    }
+    .efect{
+        margin: 20px 0;
+    }
+    
+}

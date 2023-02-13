@@ -14,3 +14,11 @@
     font-family: 'Michroma', sans-serif;
 }
 
+@media(max-width:700px){
+    .container-fluid h2{
+        font-size: 20px;
+    }
+    .contact-container{
+        padding: 20%;
+    }
+}

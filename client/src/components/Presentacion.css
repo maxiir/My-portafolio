@@ -47,5 +47,28 @@ body{
 }
 
 
-
-
+@media (max-width:700px){
+    .presentacion{
+        display: block;
+        height: 100vh;
+        
+    }
+    .img-perfil{
+        width: 200px;
+        height: 200px;
+        transform: translateX(18%);
+        margin: 12%;
+    }
+    .gradient{
+        margin: 25% auto 0 auto;
+        width: 92%;
+    }
+    
+    .container-description span{
+        font-size: 20px;
+        margin-right: 40px;
+    }
+    .text{
+        font-size: 14px;
+    }
+}
