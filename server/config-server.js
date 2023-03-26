@@ -11,6 +11,16 @@ export const __dirname = dirname(fileURLToPath(import.meta.url))
 
 // App.set(express.urlencoded({extended:false}))
 App.use(cors())
+App.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE');
+    res.header(
+      'Access-Control-Allow-Headers',
+      'Origin, X-Requested-With, Content-Type, Accept'
+    );
+    next();
+  });
+  
 App.use(express.json())
 App.use(routes)
 
