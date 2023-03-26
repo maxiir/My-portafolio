@@ -1,39 +1,59 @@
 import "./Contact.css";
+import { Formik } from "formik";
+import { sendData } from "../api/api";
+import Swal from "sweetalert2";
+
 
 function Contact() {
   return (
     <div className="contact-container container-fluid" id="contact">
-        <h2>Contact</h2>
-        <div className="form-container container">
-            <div className="mb-3">
-                <label htmlFor="exampleFormControlInput1" className="form-label">
-                Email
-                </label>
+      <h2>Contact</h2>
+      <Formik initialValues={{
+        client:'',
+        phone:'',
+        emailClient: '',
+        consulta:'',
+      }}
+      onSubmit={(values)=>{
+        sendData(values)
+        Swal.fire('correo enviado!','👍','success')
+      }}>
+        {({handleChange,handleSubmit}) => (
+          <form onSubmit={handleSubmit}>
+            <div className="form-container container">
+              <div className="mb-3">
+                
                 <input
-                type="email"
-                className="form-control"
-                id="exampleFormControlInput1"
-                placeholder="name@example.com"
+                  type="text" 
+                  className="form-control"
+                  name="client"
+                  placeholder="Your name and lastname:"
+                  onChange={handleChange}
                 />
-            </div>
-            <div className="mb-3">
-                <label htmlFor="exampleFormControlTextarea1" className="form-label">
-                Consulta
-                </label>
+              </div>
+              <div className="mb-3">
+                <input type="number" name="phone" placeholder="Your phone:" onChange={handleChange} />
+              </div>
+              <div className="mb-3">
+                <input type="email" name="emailClient" placeholder="Your Email:" onChange={handleChange} />
+              </div>
+              <div className="mb-3">
                 <textarea
-                className="form-control"
-                id="exampleFormControlTextarea1"
-                rows={3}
-                defaultValue={""}
+                  className="form-control"
+                  placeholder="dime tu consulta:"
+                  name="consulta"
+                  rows={3}
+                  defaultValue={""}
+                  onChange={handleChange}
                 />
-
+              </div>
+              <div className="btn container">
+                <button className="btn btn-primary" type="submit">Enviar</button>
+              </div>
             </div>
-            <div className="btn container">
-              <button className="btn btn-primary">Enviar</button>
-            </div>
-
-
-        </div>
+          </form>
+        )}
+      </Formik>
     </div>
   );
 }

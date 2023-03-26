@@ -6,4 +6,6 @@ const router = Router();
 
 // router.get('/', controller.index)
 
+router.post('/api/sendemail', controller.sendEmail)
+
 export default router

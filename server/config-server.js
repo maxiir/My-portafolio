@@ -9,9 +9,11 @@ import cors from 'cors'
 config()
 
 export const App = express();
-const __dirname = dirname(fileURLToPath(import.meta.url))
+export const __dirname = dirname(fileURLToPath(import.meta.url))
 
+// App.set(express.urlencoded({extended:false}))
 App.use(cors())
+App.use(express.json()) //ver
 App.use(routes)
 
 if (process.env.STATUS === 'production'){
