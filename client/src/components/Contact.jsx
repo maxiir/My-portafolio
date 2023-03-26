@@ -4,6 +4,7 @@ import { sendData } from "../api/api";
 import Swal from "sweetalert2";
 
 
+
 function Contact() {
   return (
     <div className="contact-container container-fluid" id="contact">
