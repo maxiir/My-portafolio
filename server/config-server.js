@@ -2,10 +2,8 @@ import express from 'express'
 import routes from './router/router.js'
 import {config} from 'dotenv';
 import {join,dirname} from 'path';
-import {fileURLToPath} from 'url'
-
-
-import cors from 'cors'
+import {fileURLToPath} from 'url';
+import cors from 'cors';
 config()
 
 export const App = express();
@@ -13,7 +11,7 @@ export const __dirname = dirname(fileURLToPath(import.meta.url))
 
 // App.set(express.urlencoded({extended:false}))
 App.use(cors())
-App.use(express.json()) //ver
+App.use(express.json())
 App.use(routes)
 
 if (process.env.STATUS === 'production'){
