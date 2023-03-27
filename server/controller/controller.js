@@ -1,10 +1,6 @@
 import nodemailer from "nodemailer";
-// import Swal from 'sweetalert2';
-const controller = {};
 
-// controller.index = (req,res) =>{
-//     res.send('server running...')
-// }
+const controller = {};
 
 controller.sendEmail = (req, res) => {
   const { client, phone, emailClient, consulta } = req.body;
@@ -27,7 +23,6 @@ controller.sendEmail = (req, res) => {
     if (err) {
       console.log(err);
     } else {
-      // Swal.fire('correo enviado','👍','success')
       console.log(`Email enviado! ${info.response}`);
     }
   });
