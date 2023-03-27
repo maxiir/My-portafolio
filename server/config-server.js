@@ -17,9 +17,10 @@ App.use(express.json())
 App.use(routes)
 
 if (process.env.STATUS === 'production'){
-    App.use(express.static(join(__dirname,'./dist')))
+    App.use(express.static(join(__dirname,'../client/dist')))
+    // App.use(express.static(join(__dirname,'./dist')))
     App.get('*',(req,res)=>{
-        const index = join(__dirname,'./dist/index.html')
+        const index = join(__dirname,'../client/dist/index.html')
         res.sendFile(index,(err)=>{
             if(err){
                 res.status(500).json({err:'problema al enviar el archivo'})
