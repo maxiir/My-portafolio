@@ -41,7 +41,7 @@ function Contact() {
               <div className="mb-3">
                 <textarea
                   className="form-control"
-                  placeholder="dime tu consulta:"
+                  placeholder="Consulta:"
                   name="consulta"
                   rows={3}
                   defaultValue={""}

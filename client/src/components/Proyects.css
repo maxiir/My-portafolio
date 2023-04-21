@@ -81,5 +81,8 @@
     width: 100%;
     pointer-events: none;
   }
+  .container-proyects h1{
+    padding: 5%;
+  }
   
 }

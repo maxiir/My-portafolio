@@ -76,3 +76,9 @@ p {
   
 
 }
+
+@media(max-width:600px){
+  #mypresentacion{
+    margin: 15% auto;
+  }
+}
