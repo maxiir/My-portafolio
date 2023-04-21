@@ -1,6 +1,6 @@
 import "./Contact.css";
 import { Formik } from "formik";
-import { sendData } from "../api/api";
+import { sendData } from "../api/api.js";
 import Swal from "sweetalert2";
 
 

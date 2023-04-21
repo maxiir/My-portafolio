@@ -12,7 +12,6 @@ App.set('port', process.env.PORT || 4000)
 
 App.use(cors())
 
-  
 App.use(express.json())
 App.use(routes)
 

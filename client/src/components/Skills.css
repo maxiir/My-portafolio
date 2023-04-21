@@ -1,6 +1,7 @@
 .skills-container{
     background-color: rgb(88, 31, 185);
-    /* background-color: red; */
+    
+   
 }
 .skills-container h1{
     color: rgb(255, 255, 255);
@@ -28,7 +29,10 @@
     color: yellowgreen;
 }
 
-/* @media(max-width:700px){
+@media(max-width: 700px){
+    .skills{
+      /* grid-template-columns: 1fr 1fr; */
+    }
     
     .skills-container{
         padding: 10%;
@@ -45,4 +49,4 @@
     .skills p:hover{
         font-size: 50px;
     }
-} */
+}

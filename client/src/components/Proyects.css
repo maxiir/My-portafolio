@@ -18,7 +18,7 @@
 
 .efect{
     transition: all 1s;
-    background-image: linear-gradient(to right, rgb(26, 45, 169),rgb(82, 32, 126));
+    background-image: linear-gradient(to right, rgb(36, 26, 169),rgb(82, 32, 126));
     margin: 0 3%;
     padding: 5px;
     border-radius: 10px;
@@ -71,10 +71,9 @@
 
 
 
-@media(max-width:700px){
+@media (max-width: 700px){
     .proyects{
         padding: 20% 0;
-        background-color: aqua;
         
     }
     .proyects{
@@ -84,6 +83,7 @@
    
     .container-proyects h1{
         font-size: 20px;
+        
     }
     
     .efect{

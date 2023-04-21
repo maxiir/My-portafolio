@@ -23,7 +23,7 @@ function Presentacion() {
 
           <div className="container-description">
             {/* usar etiquetas span para el efecto no h1 */}
-            <span id="titlechange">sobre mi</span> 
+            <span id="titlechange"></span> 
 
             <div className="text">
               <p>
