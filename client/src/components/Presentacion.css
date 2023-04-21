@@ -1,83 +1,78 @@
-body{
-    background-color: #1e1e1e;
-    opacity: 1;
-    background: linear-gradient(135deg, #17171755 25%, transparent 25%) -35px 0/ 70px 70px, linear-gradient(225deg, #171717 25%, transparent 25%) -35px 0/ 70px 70px, linear-gradient(315deg, #17171755 25%, transparent 25%) 0px 0/ 70px 70px, linear-gradient(45deg, #171717 25%, #1e1e1e 25%) 0px 0/ 70px 70px;
+body {
+  background-color: #1e1e1e;
+  opacity: 1;
+  background: linear-gradient(135deg, #17171755 25%, transparent 25%) -35px 0/
+      70px 70px,
+    linear-gradient(225deg, #171717 25%, transparent 25%) -35px 0/ 70px 70px,
+    linear-gradient(315deg, #17171755 25%, transparent 25%) 0px 0/ 70px 70px,
+    linear-gradient(45deg, #171717 25%, #1e1e1e 25%) 0px 0/ 70px 70px;
 }
-.gradient{
-    background-image: linear-gradient(to right, #c21500,#ffc500);
-    border-radius: 15px;
-    padding: 5px; 
-    margin: 12% auto 2% auto;
-    
-}
-
-.presentacion{
-    display: flex;
-    background-color: black;
-    border-radius: 15px;
-    height: 600px;
-    padding: 3%;
-}
-.presentacion span,p{
-    color: white;
-    font-weight: 600; 
-}
-.presentacion span{
-    font-size: 40px;
-    font-weight: 700;
-    text-align: left;
-    color: yellowgreen; 
-}
-.text p{
-    font-weight: 300;
-    padding-top: 5%;
-    width: 70%;
-    text-align: left;
-}
-.img-perfil{
-    border-radius: 50%;
-    width: 360px;
-    height: 360px;
-    transform: translate(20%,15%);
+.gradient {
+  background-image: linear-gradient(to right, #c21500, #ffc500);
+  border-radius: 15px;
+  padding: 5px;
+  margin: 12% auto 2% auto;
 }
 
-.container-description{ 
-    transform: translateX(20%);
-    padding: 5% 0 0 0;
+.presentacion {
+  display: flex;
+  background-color: black;
+  border-radius: 15px;
+  height: 600px;
+  padding: 3%;
+}
+.presentacion span,
+p {
+  color: white;
+  font-weight: 600;
+}
+.presentacion span {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  color: yellowgreen;
+}
+.text p {
+  font-weight: 300;
+  padding-top: 5%;
+  width: 70%;
+  text-align: left;
+}
+.img-perfil {
+  border-radius: 50%;
+  width: 360px;
+  height: 360px;
+  transform: translate(20%, 15%);
 }
 
+.container-description {
+  transform: translateX(20%);
+  padding: 5% 0 0 0;
+}
 
-@media (max-width:700px){
-    .presentacion{
-        display: block;
-        height: 100vh;
-        
-    }
-    .img-perfil{
-        width: 200px;
-        height: 200px;
-        transform: translateX(18%);
-        margin: 12%;
-    }
-    .gradient{
-        margin: 30% auto;
-        width: 92%;
-        
-    }
+@media (max-width: 993px){
+  #mypresentacion{
+    padding-top: 10%;
+  }
+  .presentacion{
+    display: block;
+    height: 100%;
+    padding: 10%;
+    text-align: center;
     
-    .container-description span{
-        font-size: 20px;
-        margin-right: 40px;
-    }
-    .container-description{
-        width: 400px;
-        padding: 0;
-    }
-    .text{
-        
-        font-size: 14px;
-        margin: 0px;
-    }
-    
-    
+  }
+ 
+  .img-perfil{
+    width: 260px;
+    height: 260px;
+    transform: none;
+  }
+  .presentacion span{
+    display: none;
+  }
+  .text{
+    width: 90%;
+  }
+  
+
 }

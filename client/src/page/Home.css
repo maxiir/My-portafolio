@@ -1,10 +1,10 @@
-.wave{
+.wave-bajo{
     background-color: rgba(0, 0, 0, 0.308);
 }
 
 @media(max-width:700px){
-    .wave, .wave-alto{
-       display: none;
-    }
     
+    .wave-bajo,.wave-alto{
+        display: none;
+    }
 }
