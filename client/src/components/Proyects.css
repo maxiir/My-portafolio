@@ -62,9 +62,8 @@
   padding: 5%;
 }
 
-.proyect button {
+.btn{
   width: 100px;
-  margin-top: 5%;
 }
 
 
@@ -79,6 +78,7 @@
   }
   .efect{
     width: 100%;
+    margin: 15px auto;
     pointer-events: none;
   }
   .container-proyects h1{

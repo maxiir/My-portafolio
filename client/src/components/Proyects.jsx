@@ -14,8 +14,8 @@ function Proyects() {
               <p>
                 El sitio web contable, fue desarrollado con la finalidad de que el cliente tenga una mejor presensia en linea y fue desarrollado con react y nodejs garantizando una solucion escalable y atractiva para los usuarios 
               </p>
-              <a href="https://estudiocontable-arielrucci.up.railway.app/">
-                <button className="btn btn-primary">Ver</button>
+              <a className="btn btn-primary" href="#">
+                Ver
               </a>
             </div>
           </div>
@@ -28,8 +28,8 @@ function Proyects() {
                 La aplicación fue creada utilizando la tecnología React y Nodejs,
                 brindando una experiencia de usuario atractiva y eficiente.
               </p>
-              <a href="">
-                <button className="btn btn-primary">Ver</button>
+              <a className="btn btn-primary" href="#">
+                Ver
               </a>
             </div>
           </div>
@@ -42,8 +42,8 @@ function Proyects() {
                 Desarrolle un sitio web para un estudio jurídico con el objetivo
                 de ampliar su alcance y brindar una presencia en línea.
               </p>
-              <a href="https://estudiojuridico-tw.web.app/">
-                <button className="btn btn-primary">Ver</button>
+              <a className="btn btn-primary" href="https://estudiojuridico-tw.web.app/">
+                Ver
               </a>
             </div>
           </div>
