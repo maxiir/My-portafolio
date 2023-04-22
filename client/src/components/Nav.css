@@ -32,6 +32,10 @@ i:hover{
   font-size: 20px;
 }
 
+.container-fluid button{
+  border: none;
+}
+
 @media (max-width:700px){
 
   .icons{

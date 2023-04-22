@@ -1,6 +1,4 @@
-.form-container label{
-    color: white;
-}
+
 
 .contact-container{
     padding: 5% 30%;
@@ -15,6 +13,16 @@
 }
 .btn button{
     border: 2px black;
+}
+
+@media(max-width:800px){
+    .container-fluid h2{
+        margin: 10%;
+    }
+    .contact-container{
+        padding: 10% 20%;
+    }
+    
 }
 
 @media(max-width:700px){
