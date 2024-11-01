@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 
+
 import featuresdiagonal from "../assets/images/featuresdiagonal.jpg";
 
 export const About = () => {
