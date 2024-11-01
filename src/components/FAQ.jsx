@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
+
 const FAQData = [
   {
     question: "¿Qué tipo de sitios web desarrollas?",
